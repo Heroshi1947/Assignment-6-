@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:rgb(240, 254, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    align-items: center;
+   
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    height: 4%;
+    width: 15%;
+    margin-left: 2%;
+   
+}
+
+.logo img{
+    
+    height: 8vh;
+    width: 12vw;
+}
+
+.logo img:hover{
+    height: 7.5vh;
+    width: 11.5vw;
+}
+
+.logo:hover{
+  border: 2px solid rgb(47, 255, 127) ;
+  border-radius: 7px;
+}
+
+ul   {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+ul li {
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 90%;
+    font-weight: 700;
+
+}
+
+li a {
+    color: black;
+}
+
+li a:hover{
+
+    text-decoration: underline;
+    color: rgb(16, 183, 46);
+}
+
+
+section{
+    display: flex;
+   overflow-x: hidden;
+    
+    
+}
+
+div.left-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 3%;
+    width: 50vw;
+    background-image: url(./stethoscope.png);
+    background-repeat: no-repeat ;
+    background-size: contain;
+        
+    
+}
+
+#topAngle , #bottomAngle, #mouse{
+    height: 30px;
+    width: 30px;
+}
+
+h1{
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+p{
+    padding: 2.5%;
+}
+
+#button{
+    height: 34px;
+    width: 30%;
+    border: 1px solid green;
+    border-radius: 7px;
+    background-color: #26e07a;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#button a {
+    color: rgb(240, 248, 255);
+}
+
+#button:hover{
+    height: 35px;
+    width: 31%;
+    border: 2px solid green;
+
+
+}
+
+#bottomAngle {
+   margin-left: 77%;
+}
+
+#mouse{
+    margin-left: 85%;
+    margin-top: 6%;
+}
+
+
+div.right-part  {
+    display: flex;
+    flex-direction: column;
+     margin-top: 5vh;
+    width:45vw;
+    align-items: center;
+    
+}
+
+#doc{
+    height: 115vh;
+    width: 98%;
+    background-image: url(./greenBox.png), url(./yellowBox.png);
+    background-position: right , bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto;
+   
+}
+
+#greenBox{
+     height: 500px ;
+     width: 500px;
+     margin-bottom: 30vh;
+     z-index: 0;
+}
+
+#yellowBox{
+    height: 500px ;
+    width: 500px;
+}
+
+
+
+
+
+
